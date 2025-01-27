@@ -102,11 +102,23 @@ header .navbar {
     align-items: center;
     justify-content: space-between;
 }
+.navbar .nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: -10px;
+}
+
+.navbar .nav-logo .logo {
+    width: 50px;
+}
 
 .navbar .nav-logo .logo-text {
     color: var(--white-color);
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-semibold);
+    margin-top: 10px;
 }
 
 .navbar .nav-menu {
